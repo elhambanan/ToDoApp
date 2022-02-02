@@ -11,21 +11,13 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <section class="nav__modal">
-        <div class="modal__wrapper">
-            <div class="modal__box">
-                <ul class="todo__nav-list">
-                    <li class="nav-item">Categories Management</li>
-                    <li class="nav-item">Search</li>
-                    <li class="nav-item">Task Sort</li>
-                </ul>
-                <div class="modal__btn">
-                    <bttton class="btn modal__close">close</bttton>
-                    <bttton class="btn modal__confirm">confirm</bttton>
-                </div>
-            </div>
-        </div>
-    </section> -->
+    <section class="nav__modal">
+            <ul class="todo__nav-list">
+                <li><a href="category" class="nav__link" data-link>Categories Management</a></li>
+                <li><a href="search" class="nav__link"  data-link>Search</a></li>
+                <li><a href="tasks" class="nav__link"  data-link>Task Sort</a></li>
+            </ul>
+    </section>
     <section class="todo">
         <div class="todo__wrapper">
             <nav class="todo__nav block">
@@ -33,7 +25,7 @@
                 <button class="btn">Work</button>
                 <button class="btn">Personal</button>
                 <button class="btn">Whishlist</button>
-                <button class="btn dots modal__show-btn"><i class="fas fa-ellipsis-v"></i></button>
+                <button class="btn dots navbar-modalBtn"><i class="fas fa-ellipsis-v"></i></button>
             </nav>
             <section class="todo__main block">
                 <div class="todo__header">

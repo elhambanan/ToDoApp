@@ -1,11 +1,11 @@
-const showModal = document.querySelector(".modal__show")
+const showNavModal = document.querySelector(".navbar-modalBtn");
+const navbarModal = document.querySelector(".nav__modal");
 
-
-showBtn.addEventListener("click", showModal);
-closeBtn.addEventListener("click", closeModal);
+showNavModal.addEventListener("click", showModal);
+// closeBtn.addEventListener("click", closeModal);
 
 function showModal(params) {
-    modalBox.classList.add("modal__appear"); 
+    navbarModal.classList.add("modal__appear"); 
 }
 function closeModal(){
     modalBox.classList.remove("modal__appear");
